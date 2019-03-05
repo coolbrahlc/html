@@ -1,0 +1,211 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: lightgray;
+}
+
+.headerContainer {
+    display: flex;
+    height: 80px;
+    border-bottom: 2px solid #E5E5E5;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.headerContainer>span {
+    font-size: 28px;
+    font-weight: 600;
+    opacity: .75;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainInfoContainer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+
+.mainContentContainer {
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    border-radius: 10px;
+    margin-top: 20px;
+    height: 150px;
+    margin-left: 100px;
+    margin-right: 50px;
+
+    background-color: #013A6B;
+    background-image: -webkit-linear-gradient(10deg, #E9F4E6 65%, white 35%);
+
+
+    -webkit-box-shadow: -3px 3px 102px -21px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 3px 102px -21px rgba(0,0,0,0.75);
+    box-shadow: -3px 3px 102px -21px rgba(0,0,0,0.75);
+
+
+}
+
+.mainImageContainerInner {
+    border-radius: 100%;
+    margin-left: -75px;
+    display: flex;
+    width: 150px;
+    height: 150px;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-shadow: 23px 8px 68px -26px rgba(0,0,0,0.75);
+    -moz-box-shadow: 23px 8px 68px -26px rgba(0,0,0,0.75);
+    box-shadow: 23px 8px 68px -26px rgba(0,0,0,0.75);
+}
+
+
+
+.mainImageContainerInner>div {
+    width: 140px;
+    height: 140px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.cocoleni.com/content/wp-content/uploads/2018/12/square_faces.jpg");
+}
+
+
+.mainImageContainerText>div {
+    margin-left: -40px;
+
+    display: flex;
+
+}
+
+.textTop {
+    font-size: 24px;
+    color: grey;
+}
+
+.textLow {
+    font-size: 12px;
+    color: grey;
+}
+
+.mainImageContainerMenu>div {
+    margin-right: 40px;
+    width: 70px;
+    height: 70px;
+    border-radius: 100%;
+
+}
+
+
+.distanceContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .75;
+}
+
+.distanceContainer span:first-child {
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.distanceContainer span:last-child {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.nameContainer {
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    border-bottom: 2px solid #E5E5E5;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-self: flex-end;
+
+}
+
+.nameContainer>span{
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+.fullInfoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 90px 60px 90px;
+}
+
+.fullInfoContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.fullInfoContent>span {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.footerContainer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #e5e5e5;
+}
+
+.active {
+    width: 85px;
+    height: 85px;
+    border-radius: 20px;
+    background-color: #332F4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0 0 0 .9);
+}
+
+.active2 {
+
+    width: 100px;
+    height: 100px;
+    border-radius: 2px;
+    background-color: #A7BCCF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0 0 0 .9);
+}
