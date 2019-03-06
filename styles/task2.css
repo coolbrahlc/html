@@ -1,0 +1,391 @@
+body {
+    width: 100%;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.headerContainer {
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 80px;
+    padding-right: 80px;
+    border-bottom: 2px solid #c4c4c4;
+}
+
+.headerWrapper {
+    margin: 0px 20px;
+    flex: 1;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerMenu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 200px;
+}
+
+.mainPictureContainer {
+    display: flex;
+    height: 300px;
+    background-image: url("https://mdbootstrap.com/img/Photos/Others/background.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.filter {
+    display: flex;
+    flex: 1;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.imageContainer {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.imageContainer>img{
+    margin: 16px 16px 0 0;
+}
+
+.imageContainer>div {
+    margin: 0 16px 20px 0;
+    padding: 0 16px 0 16px;
+    width: 240px;
+    height: 40px;
+    border-radius: 20px;
+    background-color: #01BFA5;
+    display: flex;
+    align-items: center;
+
+}
+
+.buttonTitle {
+    width: 500px;
+    color: white;
+    font-weight: 600;
+}
+
+.contentContainer {
+    margin-left: 100px;
+    margin-right: 100px;
+    display: flex;
+}
+
+.personalContainer {
+    min-width: 300px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    background-color: #EC4980;
+    height: 700px;
+
+    justify-content: space-between;
+}
+
+.imageContainer2 {
+    margin-top: -25%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 100%;
+    background-position: center;
+    background-image: url("https://d2v9y0dukr6mq2.cloudfront.net/video/thumbnail/BtD2KAGripl9a1wg/close-up-smiling-young-womans-face-grey-background_sk9jwklve_thumbnail-full01.png");
+    align-self: center;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nameLocationContainer {
+    margin-top: -50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.nameLocationContainer span:first-child {
+    font-size: 24px;
+}
+
+.nameLocationContainer span:last-child {
+    font-size: 20px;
+}
+
+.scoreContainer {
+    padding-left: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+.badgesContainer{
+    padding-left: 25px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.scoreContainer>div{
+    margin-top: 15px;
+    color: white;
+    font-size: 48px;
+}
+
+.badgesTitle {
+    margin-top: 10px;
+    padding-left: 40px;
+
+}
+
+.badgeItem {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.badge {
+    border-radius: 100%;
+    height: 60px;
+    width: 60px;
+    background-color: white;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    align-items: flex-end;
+    justify-content: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://cdn.shopify.com/s/files/1/0863/0604/products/penguin8x10_new.jpg?v=1531877145");
+}
+
+
+
+.badgeItem>div:last-child {
+    display: flex;
+    justify-content: center;
+    color: white;
+
+}
+
+.scoreContainer>div>span{
+    color: white;
+    font-size: 16px;
+}
+
+.viewProfile {
+    padding-left: 40px;
+    display: flex;
+    height: 50px;
+    background-color: darkred;
+    color: white;
+}
+.viewProfile>div {
+    margin-top: 15px;
+}
+
+
+.postsContainer {
+    width: 1100px;
+    margin-left: 50px;
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid grey;
+
+}
+
+.postsHeaders {
+    height: 25px;
+    border-bottom: 2px solid grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.postsHeaders>div:first-child{
+    height: 25px;
+    border-bottom: 2px solid red;
+}
+
+
+.postsHeaders>div {
+    font-weight: 600;
+    margin-right: 100px;
+}
+
+.postsButtons {
+    margin-top: 20px;
+    margin-bottom: -80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    height: 150px;
+}
+
+.buttonline {
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-right: 10px;
+}
+
+.button {
+    width: 200px;
+    border-radius: 30px;
+    background-color: lightgrey;
+    margin-top: 0;
+    display: flex;
+    flex-direction: row;
+    background-image: -webkit-linear-gradient(0deg, lightgrey 75%, hotpink 25%);
+}
+
+.button>div{
+    margin-left: 30px;
+    margin-right: 15px;
+    margin-top: 15px;
+}
+
+
+.postItems {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+}
+
+.postItems>div {
+    margin-right: 40px;
+    margin-bottom: 40px;
+
+    height: 400px;
+    width: 470px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border: 2px solid #c4c4c4;
+}
+
+.postText {
+    margin-top: -140px;
+    margin-left: 20px;
+    font-size: 22px;
+}
+
+.postFooter {
+    height: 45px;
+    background-color: lightgrey;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.postFooter>div {
+    height: 25px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    margin-right: 18px;
+    margin-left: 18px;
+}
+
+.heart {
+    margin-right: 10px;
+}
+
+.answers {
+    margin-top: 6px;
+    margin-left: 5px;
+    color: red;
+}
+
+.postHeader{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+.postHeader>div     {
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonPostHeader {
+    font-size: 13px;
+    justify-content: center;
+    width: 80px;
+    height: 35px;
+    border-radius: 15px;
+    background-color: lightgrey;
+    margin-top: 5px;
+    margin-right: 20px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+}
+
+.buttonPostHeader>div:first-child{
+    margin-top: 5px;
+}
+
+.buttonPostHeader>div:last-child{
+    margin-top: 12px;
+}
+.more{
+    margin-top: 8px;
+}
+
+.timestamp {
+    margin-top: 5px;
+    font-size: 14px;
+    color: grey;
+}
+
+.postAuthor {
+    margin-top: 5px;
+}
+
+@media(max-width: 1530px) {
+    .postItems {
+        justify-content: space-around;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

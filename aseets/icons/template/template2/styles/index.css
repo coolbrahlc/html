@@ -1,0 +1,163 @@
+body {
+    font-family: 'Montserrat', sans-serif;;
+    width: 100%;
+    height: 100%;
+    background-color: #333333;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainContainer{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.headerContainer {
+    display: flex;
+    height: 80px;
+    border-bottom: 2px solid #E5E5E5;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 16px;
+}
+
+.headerContainer>span {
+    font-size: 28px;
+    font-weight: 600;
+    opacity: .75;
+}
+
+.contentContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.mainInfoContainer {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.mainImageContainerOuter {
+    width: 500px;
+    height: 520px;
+    border-radius: 100%;
+    background-color: #48C5BB;
+    margin-top: -100px;
+    margin-left: -100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImageContainerInnerOuter {
+    width: 440px;
+    height: 440px;
+    border-radius: 100%;
+    background-color: #605995;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImageContainerInner {
+    width: 360px;
+    height: 360px;
+    border-radius: 100%;
+    background-color: #454068;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mainImageContainerInner>div {
+    width: 280px;
+    height: 280px;
+    border-radius: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://www.cocoleni.com/content/wp-content/uploads/2018/12/square_faces.jpg");
+}
+
+.distanceContainer {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: .75;
+}
+
+.distanceContainer span:first-child {
+    font-size: 60px;
+    font-weight: 600;
+
+}
+
+.distanceContainer span:last-child {
+    font-size: 30px;
+    font-weight: 600;
+    margin-left: 18px;
+}
+
+.nameContainer {
+    display: flex;
+    max-width: 550px;
+    width: 100%;
+    border-bottom: 2px solid #E5E5E5;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    flex-direction: column;
+    align-self: flex-end;
+
+}
+
+.nameContainer>span{
+    font-size: 52px;
+    font-weight: 600;
+    letter-spacing: -3px;
+}
+
+.fullInfoContainer {
+    display: flex;
+    flex-direction: column;
+    padding: 15px 90px 60px 90px;
+}
+
+.fullInfoContent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.fullInfoContent>span {
+    margin-left: 20px;
+    font-size: 25px;
+    font-weight: 400;
+    letter-spacing: -1px;
+}
+
+.footerContainer {
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 2px solid #e5e5e5;
+}
+
+.active {
+    width: 85px;
+    height: 85px;
+    border-radius: 20px;
+    background-color: #332F4F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0 0 0 .9);
+}
